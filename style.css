@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "Inter", system-ui, sans-serif;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('fuentes/inter.ttf');
+}
+
+.contenedor {
+    display: flex;
+    height: 100vh;
+}
+
+.izquierda {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #B5CCBE;
+    width: 50vw;
+}
+
+.derecha {
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.izquierda .logo {
+    object-fit: cover;
+    width: 528px;
+    height: 582px;
+}
