@@ -11,9 +11,67 @@
     src: url('fuentes/inter.ttf');
 }
 
-.contenedor {
+.login-contenedor {
     display: flex;
     height: 100vh;
+}
+
+.login-contenedor h1 {
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.login-contenedor h2 {
+    margin-top: 14px;
+    font-size: 24px;
+    font-weight: 300;
+    color: #8A8FB2;
+    margin-bottom: 40px;
+}
+
+.formulario .fila {
+    display: flex;
+    gap: 14px;
+}
+
+.formulario .campo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+}
+
+.formulario label {
+    text-align: left;
+    font-size: 16px;
+    font-weight: 300;
+    color: #8A8FB2;
+    margin-bottom: 10px;
+}
+
+.formulario input {
+    border-radius: 4px;
+    border: 2px solid #E4E4E7;
+    padding: 10px 16px;
+    outline: none;
+}
+
+.formulario input:focus {
+    border: 2px solid #8A8FB2;
+}
+
+.formulario button {
+    border-radius: 4px;
+    background-color: #4B5563;
+    color: white;
+    padding: 10px 20px;
+    width: 100%;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s ease background;
+}
+
+.formulario button:hover {
+    background-color: #414955;
 }
 
 .izquierda {
@@ -30,6 +88,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    text-align: center;
 }
 
 .izquierda .logo {
